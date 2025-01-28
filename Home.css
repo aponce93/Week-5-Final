@@ -1,0 +1,39 @@
+.home-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .movies-section {
+    margin-top: 40px;
+  }
+  
+  .movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .movie-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .movie-poster {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .movie-card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .movie-card p {
+    font-size: 14px;
+    color: #555;
+  }

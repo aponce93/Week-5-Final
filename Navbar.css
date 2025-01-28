@@ -1,0 +1,79 @@
+/* Navbar Container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Left Section (Brand) */
+  .navbar-left .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Center Section (Links) */
+  .navbar-center {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-link {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Right Section (Cart and Logout) */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Equal spacing between Cart and Logout */
+  }
+  
+  /* Button Styles */
+  .navbar-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .navbar-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Cart Button */
+  .navbar-button .cart-count {
+    margin-left: 8px;
+    background-color: #ff4d4d;
+    color: white;
+    font-size: 14px;
+    padding: 2px 6px;
+    border-radius: 12px;
+  }
+  
+  /* Logout Button */
+  .logout-button {
+    background-color: #dc3545; /* Red background for Logout */
+  }
+  
+  .logout-button:hover {
+    background-color: #b02a37;
+  }

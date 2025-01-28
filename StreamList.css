@@ -1,0 +1,79 @@
+/* Events Section */
+.events-section {
+    margin-bottom: 40px;
+  }
+  
+  .event-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .event-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .event-input {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-icon {
+    color: #ff4d4d;
+    cursor: pointer;
+  }
+  
+  /* Movies Section */
+  .movies-section {
+    margin-top: 40px;
+  }
+  
+  .movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .movie-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .movie-poster {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .movie-card p {
+    font-size: 14px;
+    color: #555;
+  }

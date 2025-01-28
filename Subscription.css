@@ -1,0 +1,50 @@
+/* Main Container for Subscriptions */
+.subscription-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Subscription Options Layout */
+  .subscription-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Spacing between subscription cards */
+    margin-top: 20px;
+    flex-wrap: wrap; /* Wrap cards for smaller screens */
+  }
+  
+  /* Subscription Card Style */
+  .subscription-card {
+    background-color: #008080; /* Teal background */
+    color: white;
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  /* Price Text Style */
+  .subscription-price {
+    font-size: 1.8rem; /* Larger price font size */
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Subscribe Button Style */
+  .subscribe-button {
+    background-color: #28a745; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for a larger button */
+    font-size: 1rem; /* Bigger font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  }
+  
+  /* Hover Effect for Subscribe Button */
+  .subscribe-button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slight zoom on hover */
+  }
